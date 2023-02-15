@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AES_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AES_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9032417fs"></ZoomStartTime>
+      <ZoomEndTime time="9617918fs"></ZoomEndTime>
+      <Cursor1Time time="9100917fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/AES_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/en_req" type="logic">
+      <obj_property name="ElementShortName">en_req</obj_property>
+      <obj_property name="ObjectShortName">en_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/dec_req" type="logic">
+      <obj_property name="ElementShortName">dec_req</obj_property>
+      <obj_property name="ObjectShortName">dec_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/in_text" type="array">
+      <obj_property name="ElementShortName">in_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">in_text[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/out_text" type="array">
+      <obj_property name="ElementShortName">out_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_text[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/EN" type="logic">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/plain_text" type="array">
+      <obj_property name="ElementShortName">plain_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">plain_text[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/cipher_text" type="array">
+      <obj_property name="ElementShortName">cipher_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cipher_text[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/input_key" type="array">
+      <obj_property name="ElementShortName">input_key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">input_key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_sim/AES_ins/AES_ENC_ins/round" type="array">
+      <obj_property name="ElementShortName">round[3:0]</obj_property>
+      <obj_property name="ObjectShortName">round[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

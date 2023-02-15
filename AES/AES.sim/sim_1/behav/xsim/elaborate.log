@@ -1,0 +1,20 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/USER/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 6787d275be9c4e3387898277c522d419 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_sim_behav xil_defaultlib.AES_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Key_expansion
+Compiling module xil_defaultlib.Add_round_key
+Compiling module xil_defaultlib.S_box
+Compiling module xil_defaultlib.Shift_rows
+Compiling module xil_defaultlib.Mix_columns
+Compiling module xil_defaultlib.AES_ENC
+Compiling module xil_defaultlib.AES
+Compiling module xil_defaultlib.AES_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AES_sim_behav
